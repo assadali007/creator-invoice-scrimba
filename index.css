@@ -1,0 +1,170 @@
+/* ================
+General Settings
+================= */
+* {
+    box-sizing: border-box;;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    /* display: block; */
+}
+
+/* ================
+Typography
+================= */
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.widget {
+    background-color: #1F2937;
+    color: #fff;
+}
+.header-section {
+    background-color: #3A69D2;
+    text-align: center;
+    padding: 2em
+}
+
+h2,
+h3,
+.total-amount {
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.widget-subtitle {
+    font-size: 16px;
+}
+
+.task {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.price {
+    font-size: 24px;
+    /* margin-left: 1rem; */
+}
+
+.usd {
+    color: #918E9B;
+}
+
+.fine-print {
+    font-size: 12px;
+}
+
+.total-amount {
+    font-size: 36px;
+    /* margin-left: 1rem; */
+}
+
+button {
+    font-family: inherit;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.service-btn {
+    font-size: 14px;
+    background-color: #D1D4F4;
+    padding: .75em 1.5em;
+    margin-bottom: 1em;
+}
+
+
+.service-btn:hover {
+    background-color: #3A69D2;
+    color: #fff;
+}
+
+.send-btn {
+    font-size: 1rem;
+    /* font-weight: 700; */
+    background-color: #3A69D2;
+    color: #fff;
+    width: 100%;
+    padding: .5em;
+    transition: scale 500ms;
+}
+
+.send-btn:hover {
+    opacity: .75;
+    transform: scale(1.025);
+}
+
+.remove-btn {
+    font-size: 10px;
+    background-color: inherit;
+    color: #D5D4D8;
+}
+
+.remove-btn:hover {
+    color: #3A69D2;
+}
+
+/* ================
+Layout
+================= */
+h2,
+h3,
+.widget-subtitle,
+.total-amount,
+.fine-print {
+    margin-top: 0;
+}
+
+.total-amount {
+    margin-bottom: 0;
+}
+
+.widget {
+    max-width: 550px;
+    margin: 3rem auto;
+}
+
+section {
+    padding: 2rem;
+    /* border: 1px dotted orange; */
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px dotted green; */
+}
+
+.btn-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.task-output-container {
+    border-bottom: 1px solid #D1D4F4;
+}
+
+.total-amount-section,
+.send-invoice-section,
+.task-section {
+    padding-top: 0;
+}
