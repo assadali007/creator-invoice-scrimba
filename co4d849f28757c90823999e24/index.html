@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Invoice Creator</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+
+
+<body>
+    <div class="widget">
+        <section class="header-section">
+            <h2>
+                Invoice creator
+            </h2>
+            <p class="widget-subtitle">
+                Thanks for choosing GoodCorp, LLC!
+            </p>
+        </section>
+
+        <section id="btn-section" class="btn-section">
+            <!-- Buttons are generated in JS-->
+        </section>
+
+        <section id="task-section" class="task-section">
+            <div class="container-flex">
+                <h3>
+                    Task
+                </h3>
+                <h3>
+                    Total
+                </h3>
+            </div>
+            <div id="task-output-container" class="task-output-container">
+                <!-- content generated in JS-->
+            </div>
+        </section>
+
+        <section class="total-amount-section">
+            <div class="container-flex">
+                <h3>
+                    Notes
+                </h3>
+                <h3>
+                    Total amount
+                </h3>
+            </div>
+            <div class="container-flex">
+                <p class="fine-print">
+                    We accept cash, credit card, or PayPal
+                </p>
+                <p class="total-amount">
+                    <span class="usd">$</span>
+                    <span id="total-amount">0</span>
+                </p>
+            </div>
+
+        </section>
+        <section class="send-invoice-section">
+            <button id="send-btn" class="send-btn">
+                <img src="imgs/mail-icon.svg" alt="a mail icon">
+                Send invoice
+            </button>
+        </section>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
